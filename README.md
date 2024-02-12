@@ -1,4 +1,8 @@
-#  C++ standards, the corresponding G++ compiler options to enable them, and some of the key features introduced in each standard:
+
+# Table of Contents
+1. [C++ Standards](#c++-standards)
+   
+#  C++ standards
 
 | Standard | Compiler Option | Key Features Introduced                                            |
 |----------|-----------------|---------------------------------------------------------------------|
@@ -10,4 +14,7 @@
 | C++20    | `-std=c++20`    | Concepts, coroutines, modules, ranges, spaceship operator (<=>)     |
 | C++23    | `-std=c++2b`    | (Partial support, features evolving) Improvements to templates, ranges |
 
-
+Example to use a standard:
+```bash
+g++ -std=c++17 main.cpp -o main
+```
